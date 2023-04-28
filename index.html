@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Portfoliyo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b570efdfdf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- home section -->
+   
+    <div id="header">
+        <div class="container">
+            <nav id="navbar">
+            <div id="logo">
+                <!-- <img src="images/logo.png.jpeg" alt="greatlife.com" /> -->
+                <h1 class="logo"><span>Great</span> Life</h1>
+                <!-- <img src="images/ddk.png" class="logo"> -->
+              </div>
+               
+                <ul id="sidemenu">
+                    <li class="item"><a href="#header">Home</a></li>
+                    <li class="item"><a href="#about">About me</a></li>
+                    <li class="item"><a href="#services">Services</a></li>
+                    <li class="item"><a href="#portfolio">Portfolio</a></li>
+                    <li class="item"><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                  </ul>
+                <!-- <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul> -->
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Welcome, I'm <span>Deepak</span> <br> From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About section  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <!-- i have made two column in which in one col-text and in second col-image will be there -->
+                <div class="col-1">
+                    <img src="images/deepak.jpeg" class="col-image">
+                </div>
+                <div class="col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am undergraduate student at NIT Raipur currently i am in 3rd year and my branch is Biotechnology.
+                        Student who believes in for achiement of anything we have to do work on that field with consistency.
+                    oppurtunity always comes in our life just we have to catch it and work with it. i love nature, i like to click nature images,
+                i like editing, i love to play carrom.  </p>
+                <div class="tab-title">
+                    <p class="tab-links  active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    <p class="tab-links" onclick="opentab('Hobby')">Hobby</p>
+                </div>
+                <div class="tab-content active-tab" id="Skills">
+                    <ul>
+                        <li><span>Prgramming Language</span><br>C++ and Python</li>
+                        <li><span>DSA</span><br>Data Structure and Algorithm</li>
+                        <li><span>Machine Learning</span><br>Automated Machine</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="Education">
+                    <ul>
+                        <li><span>B tech(2020-24)</span><br>National Institude Of Technology Raipur</li>
+                        <li><span>12th(2019)</span><br>Navin Girls Kawardha</li>
+                        <li><span>10th(2017)</span><br>Govt Higher Secondary School Jevdan Khurd</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="Hobby">
+                    <ul>
+                        <li><span>Shayar</span><br>i like to write Sharyari</li>
+                        <li><span>Editor</span><br>i love editing videos</li>
+                        <li><span>Nature Lover</span><br>i love to spend my lot of time with nature, i like to clik its photos</li>
+                    </ul>
+                </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <!-- ..............my life Goal............. -->
+                   <!-- FONTAWESOME.COM  WEB USED FOR ICONS -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Life's Goal</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Software Engineer</h2>
+                     <p>This is one of the most popular job now a days which finds its application in almost every field. 
+                        i am very enthuasist to join in this field so i am working on it. i want to for society.
+                     </p>
+                     <a href="#">Learn more</a>   
+                </div>
+                <div>
+                    <i class="fa-brands fa-square-youtube"></i>
+                    <h2>Youtuber</h2>
+                     <p>i want to be youtuber. i had started before one year to make videos and now i am looking some strongly content which
+                        i can take and work in that field and make career also on that feild.
+                     </p>
+                     <a href="#">Learn more</a>   
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-clip"></i>
+                    <h2>Shayar</h2>
+                     <p>Writing/Doing Sharyari is my hobby, i like to do it. i had started when i someone rejected me that time i just started but now its my proffesion 
+                        i believe that whatever happen in our life there is always some reason. So accept the things and turn your weakness to strength. 
+                     </p>
+                     <a href="#">Learn more</a>   
+                </div>
+            </div>
+        </div>
+    </div>
+
+           <!-- ............Portfoliyo................ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/software.jpg">
+                    <div class="layer">
+                        <h3>Software Field</h3>
+                        <p> i want to become software engineer. i am coding enthuasist 
+                             nowdays everything is digital.</p>
+                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>                
+                <div class="work">
+                    <img src="images/Biotech.jpg">
+                    <div class="layer">
+                        <h3>Biotechnology Field</h3>
+                        <p> i am doing b tech from nit raipur. Biotech feild is also one of the best feild i have leanerd lot of thing 
+                             molestiae culpa consectetur incidunt est.</p>
+                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>                
+                <div class="work">
+                    <img src="images/youtuber.jpg">
+                    <div class="layer">
+                        <h3>Youtuber</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates deserunt fuga explicabo ex, et ab laborum sequi dolorum
+                             molestiae culpa consectetur incidunt est.</p>
+                             <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>                
+              </div>
+              <a href="#"class="btn">see more</a>
+            </div>
+          </div>
+          
+          <!-- ...............Contact.................  -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>dy1769684@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 7773004312</p>
+                  <div class="social-icons">
+                    <a href="https://www.facebook.com/home.php"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/home?lang=en"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/dkyadav055088/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/deepak-yadav-17b33b192/"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </div>
+                  <a href="images/myCv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+                </div>  
+        </div>
+        <div class="copyright">
+            <p>Copyright Deepak. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        </div>
+    </div>      
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontent = document.getElementsByClassName("tab-content");
+        // defining function 
+        function opentab(tabname){
+            // hiding the content 
+            for(tablinks of tablinks){
+                tablinks.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontent){
+                tabcontent.classList.remove("active-tab");
+            }
+            // displying the link 
+            event.currentTarget.classList.add("active-link");
+            // displying the content 
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
