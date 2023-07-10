@@ -257,7 +257,8 @@ nav ul li a:hover::after{
 }
 .layer h3{
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 20x;
+    
 }
 .layer a{
     margin-top: 20px;
@@ -280,7 +281,7 @@ nav ul li a:hover::after{
 }
 .btn{
     display: block;
-    margin: 50px auto;
+    margin: 40px auto;
     width: fit-content;
     border: 1px solid #ff004f;
     padding: 14px 50px;
@@ -426,4 +427,4 @@ nav .fa-solid{
     .copyright{
         font-size: 14px;
     }
-}                         
+}   
